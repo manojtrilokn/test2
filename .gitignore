@@ -1,7 +1,46 @@
+# Node modules
+/node_modules/
+/uploads/mnj
 
-node_modules/
-build/
-config/
-uploads/
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+bower_components/
+
+# Build output
+/dist
+/build
+/tmp
+/out
+
+# Environment files
 .env
+.env.test
+.env.local
 
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+
+
+
+# Miscellaneous
+*.tgz
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+*.sqlite
+*.sql
